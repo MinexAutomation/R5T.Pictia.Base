@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Pictia.Base.Construction", "R5T.Pictia.Base.Construction\R5T.Pictia.Base.Construction.csproj", "{B5229F45-973F-448E-B111-DA748A1A0251}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Pictia.Base.Construction", "R5T.Pictia.Base.Construction\R5T.Pictia.Base.Construction.csproj", "{B5229F45-973F-448E-B111-DA748A1A0251}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Pictia.Base", "R5T.Pictia.Base\R5T.Pictia.Base.csproj", "{56306EAF-3F4F-4667-BA72-124FBD5C53B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Pictia.Base", "R5T.Pictia.Base\R5T.Pictia.Base.csproj", "{56306EAF-3F4F-4667-BA72-124FBD5C53B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{2F5A0920-1584-4694-A95E-78B98462295A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Pictia", "..\..\R5T.Pictia\source\R5T.Pictia\R5T.Pictia.csproj", "{1C355286-D078-4ED3-A86A-82BEFF710311}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Magyar", "..\..\R5T.Magyar\source\R5T.Magyar\R5T.Magyar.csproj", "{536C3282-C609-494F-8C34-26B057F9DD1A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{B5229F45-973F-448E-B111-DA748A1A0251}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -44,5 +47,39 @@ Global
 		{56306EAF-3F4F-4667-BA72-124FBD5C53B4}.Release|x64.Build.0 = Release|Any CPU
 		{56306EAF-3F4F-4667-BA72-124FBD5C53B4}.Release|x86.ActiveCfg = Release|Any CPU
 		{56306EAF-3F4F-4667-BA72-124FBD5C53B4}.Release|x86.Build.0 = Release|Any CPU
+		{1C355286-D078-4ED3-A86A-82BEFF710311}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C355286-D078-4ED3-A86A-82BEFF710311}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C355286-D078-4ED3-A86A-82BEFF710311}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{1C355286-D078-4ED3-A86A-82BEFF710311}.Debug|x64.Build.0 = Debug|Any CPU
+		{1C355286-D078-4ED3-A86A-82BEFF710311}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1C355286-D078-4ED3-A86A-82BEFF710311}.Debug|x86.Build.0 = Debug|Any CPU
+		{1C355286-D078-4ED3-A86A-82BEFF710311}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C355286-D078-4ED3-A86A-82BEFF710311}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C355286-D078-4ED3-A86A-82BEFF710311}.Release|x64.ActiveCfg = Release|Any CPU
+		{1C355286-D078-4ED3-A86A-82BEFF710311}.Release|x64.Build.0 = Release|Any CPU
+		{1C355286-D078-4ED3-A86A-82BEFF710311}.Release|x86.ActiveCfg = Release|Any CPU
+		{1C355286-D078-4ED3-A86A-82BEFF710311}.Release|x86.Build.0 = Release|Any CPU
+		{536C3282-C609-494F-8C34-26B057F9DD1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{536C3282-C609-494F-8C34-26B057F9DD1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{536C3282-C609-494F-8C34-26B057F9DD1A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{536C3282-C609-494F-8C34-26B057F9DD1A}.Debug|x64.Build.0 = Debug|Any CPU
+		{536C3282-C609-494F-8C34-26B057F9DD1A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{536C3282-C609-494F-8C34-26B057F9DD1A}.Debug|x86.Build.0 = Debug|Any CPU
+		{536C3282-C609-494F-8C34-26B057F9DD1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{536C3282-C609-494F-8C34-26B057F9DD1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{536C3282-C609-494F-8C34-26B057F9DD1A}.Release|x64.ActiveCfg = Release|Any CPU
+		{536C3282-C609-494F-8C34-26B057F9DD1A}.Release|x64.Build.0 = Release|Any CPU
+		{536C3282-C609-494F-8C34-26B057F9DD1A}.Release|x86.ActiveCfg = Release|Any CPU
+		{536C3282-C609-494F-8C34-26B057F9DD1A}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1C355286-D078-4ED3-A86A-82BEFF710311} = {2F5A0920-1584-4694-A95E-78B98462295A}
+		{536C3282-C609-494F-8C34-26B057F9DD1A} = {2F5A0920-1584-4694-A95E-78B98462295A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E3E6B42-5CA5-4D0A-8388-DBDFB8753F36}
 	EndGlobalSection
 EndGlobal
